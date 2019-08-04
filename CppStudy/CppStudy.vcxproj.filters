@@ -4,6 +4,7 @@
     <Filter Include="소스 파일">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="헤더 파일">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
@@ -13,5 +14,37 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Chapter01">
+      <UniqueIdentifier>{1e77aa7c-2994-4f0a-82a4-b78727da55a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter01\1">
+      <UniqueIdentifier>{1f152714-d428-4e26-8cb1-1d06c6648543}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BetweenAdder.cpp">
+      <Filter>소스 파일\Chapter01\1</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorld.cpp">
+      <Filter>소스 파일\Chapter01\1</Filter>
+    </ClCompile>
+    <ClCompile Include="problem1.cpp">
+      <Filter>소스 파일\Chapter01\1</Filter>
+    </ClCompile>
+    <ClCompile Include="problem2.cpp">
+      <Filter>소스 파일\Chapter01\1</Filter>
+    </ClCompile>
+    <ClCompile Include="problem3.cpp">
+      <Filter>소스 파일\Chapter01\1</Filter>
+    </ClCompile>
+    <ClCompile Include="problem4.cpp">
+      <Filter>소스 파일\Chapter01\1</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleAdder.cpp">
+      <Filter>소스 파일\Chapter01\1</Filter>
+    </ClCompile>
+    <ClCompile Include="StringIO.cpp">
+      <Filter>소스 파일\Chapter01\1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
