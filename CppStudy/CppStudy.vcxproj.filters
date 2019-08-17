@@ -23,6 +23,18 @@
     <Filter Include="소스 파일\Chapter01\01_IO">
       <UniqueIdentifier>{1f152714-d428-4e26-8cb1-1d06c6648543}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter01\05_namespace">
+      <UniqueIdentifier>{e7d2a527-1f37-494a-99d5-773e5a190b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter01\03_defaultValue">
+      <UniqueIdentifier>{4949628c-814b-4ca0-b629-be21d9d1e9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter01\04_inlineFunction">
+      <UniqueIdentifier>{1c4ed092-e856-4de3-b4b3-c0b5f4f522f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter01\06_OOP Project">
+      <UniqueIdentifier>{9a9757be-3c69-4e2c-a781-3dab95d8eab5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BetweenAdder.cpp">
@@ -54,6 +66,42 @@
     </ClCompile>
     <ClCompile Include="01_2_problem1.cpp">
       <Filter>소스 파일\Chapter01\02_functionOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="BankingSystemVer01.cpp">
+      <Filter>소스 파일\Chapter01\06_OOP Project</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultValue1.cpp">
+      <Filter>소스 파일\Chapter01\03_defaultValue</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultValue2.cpp">
+      <Filter>소스 파일\Chapter01\03_defaultValue</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultValue3.cpp">
+      <Filter>소스 파일\Chapter01\03_defaultValue</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineFunc.cpp">
+      <Filter>소스 파일\Chapter01\04_inlineFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSp1.cpp">
+      <Filter>소스 파일\Chapter01\05_namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSp2.cpp">
+      <Filter>소스 파일\Chapter01\05_namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSp3.cpp">
+      <Filter>소스 파일\Chapter01\05_namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="UsingDcl1.cpp">
+      <Filter>소스 파일\Chapter01\05_namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="UsingDcl2.cpp">
+      <Filter>소스 파일\Chapter01\05_namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="UsingDcl3.cpp">
+      <Filter>소스 파일\Chapter01\05_namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="NameAlias.cpp">
+      <Filter>소스 파일\Chapter01\05_namespace</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

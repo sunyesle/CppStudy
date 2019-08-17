@@ -1,16 +1,16 @@
 #include <iostream>
 
 int main(void) {
-	int val[5];
-	int result=0;
+	int num=0;
+	int input;
 
 	for (int i = 0; i < 5; i++)
 	{
 		std::cout << i+1<<"번째 정수입력: ";
-		std::cin >> val[i];
-		result += val[i];
+		std::cin >> input;
+		num += input;
 	}
 	
-	std::cout << "합계: " << result << std::endl;
+	std::cout << "합계: " << num << std::endl;
 	return 0;
 }
