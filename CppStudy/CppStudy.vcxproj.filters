@@ -32,8 +32,14 @@
     <Filter Include="소스 파일\Chapter01\04_inlineFunction">
       <UniqueIdentifier>{1c4ed092-e856-4de3-b4b3-c0b5f4f522f6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Chapter01\06_OOP Project">
+    <Filter Include="소스 파일\OOP Project">
+      <UniqueIdentifier>{fd2e4e44-f5cf-4e95-8b07-3d68fee3cdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP Project\01">
       <UniqueIdentifier>{9a9757be-3c69-4e2c-a781-3dab95d8eab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter02">
+      <UniqueIdentifier>{a5584b89-0a45-40ed-8b65-7183cdb5f379}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -68,7 +74,7 @@
       <Filter>소스 파일\Chapter01\02_functionOverloading</Filter>
     </ClCompile>
     <ClCompile Include="BankingSystemVer01.cpp">
-      <Filter>소스 파일\Chapter01\06_OOP Project</Filter>
+      <Filter>소스 파일\OOP Project\01</Filter>
     </ClCompile>
     <ClCompile Include="DefaultValue1.cpp">
       <Filter>소스 파일\Chapter01\03_defaultValue</Filter>
@@ -102,6 +108,24 @@
     </ClCompile>
     <ClCompile Include="NameAlias.cpp">
       <Filter>소스 파일\Chapter01\05_namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="02_1_1.cpp">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="02_1_3.cpp">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="02_2.cpp">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="02_3.cpp">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="02_4_1.cpp">
+      <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="02_4_2.cpp">
+      <Filter>소스 파일\Chapter02</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
