@@ -41,6 +41,9 @@
     <Filter Include="소스 파일\Chapter02">
       <UniqueIdentifier>{a5584b89-0a45-40ed-8b65-7183cdb5f379}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter03">
+      <UniqueIdentifier>{3f801648-8b38-4c43-9c38-ab1745403e42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BetweenAdder.cpp">
@@ -126,6 +129,18 @@
     </ClCompile>
     <ClCompile Include="02_4_2.cpp">
       <Filter>소스 파일\Chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="03_1.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="03_2_1.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="03_2_2.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitSaleSim1.cpp">
+      <Filter>소스 파일\Chapter03</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
