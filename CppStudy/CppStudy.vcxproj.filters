@@ -35,14 +35,14 @@
     <Filter Include="소스 파일\OOP Project">
       <UniqueIdentifier>{fd2e4e44-f5cf-4e95-8b07-3d68fee3cdfb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\OOP Project\01">
-      <UniqueIdentifier>{9a9757be-3c69-4e2c-a781-3dab95d8eab5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Chapter02">
       <UniqueIdentifier>{a5584b89-0a45-40ed-8b65-7183cdb5f379}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\Chapter03">
       <UniqueIdentifier>{3f801648-8b38-4c43-9c38-ab1745403e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter04">
+      <UniqueIdentifier>{8612d11f-1a4c-4303-9bd0-5bd08b78d85a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -75,9 +75,6 @@
     </ClCompile>
     <ClCompile Include="01_2_problem1.cpp">
       <Filter>소스 파일\Chapter01\02_functionOverloading</Filter>
-    </ClCompile>
-    <ClCompile Include="BankingSystemVer01.cpp">
-      <Filter>소스 파일\OOP Project\01</Filter>
     </ClCompile>
     <ClCompile Include="DefaultValue1.cpp">
       <Filter>소스 파일\Chapter01\03_defaultValue</Filter>
@@ -141,6 +138,27 @@
     </ClCompile>
     <ClCompile Include="FruitSaleSim1.cpp">
       <Filter>소스 파일\Chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="04_1.cpp">
+      <Filter>소스 파일\Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="04_2.cpp">
+      <Filter>소스 파일\Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="04_3_1.cpp">
+      <Filter>소스 파일\Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="04_3_2.cpp">
+      <Filter>소스 파일\Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfRef.cpp">
+      <Filter>소스 파일\Chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="BankingSystemVer01.cpp">
+      <Filter>소스 파일\OOP Project</Filter>
+    </ClCompile>
+    <ClCompile Include="BankingSystemVer02.cpp">
+      <Filter>소스 파일\OOP Project</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
