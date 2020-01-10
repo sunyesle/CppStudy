@@ -44,6 +44,9 @@
     <Filter Include="소스 파일\Chapter04">
       <UniqueIdentifier>{8612d11f-1a4c-4303-9bd0-5bd08b78d85a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter05">
+      <UniqueIdentifier>{e64aaf35-6cbb-4c05-af49-22fe9c221563}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BetweenAdder.cpp">
@@ -158,6 +161,18 @@
       <Filter>소스 파일\OOP Project</Filter>
     </ClCompile>
     <ClCompile Include="BankingSystemVer02.cpp">
+      <Filter>소스 파일\OOP Project</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassInit.cpp">
+      <Filter>소스 파일\Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="05_1.cpp">
+      <Filter>소스 파일\Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnObjDeadTime.cpp">
+      <Filter>소스 파일\Chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="BankingSystemVer03.cpp">
       <Filter>소스 파일\OOP Project</Filter>
     </ClCompile>
   </ItemGroup>
