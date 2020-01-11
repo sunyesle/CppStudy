@@ -1,4 +1,4 @@
-//chapter05
+//chapter05, 06
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
@@ -44,7 +44,7 @@ public:
 		cout << "ภÜพื : " << this->balance << endl << endl;
 	}
 	~Account() {
-		delete[]cusName;
+		delete[] cusName;
 	}
 };
 
