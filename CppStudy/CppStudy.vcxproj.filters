@@ -56,6 +56,9 @@
     <Filter Include="소스 파일\Chapter08">
       <UniqueIdentifier>{d23ca2f2-6edc-4515-81bb-b34cc69f86b7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\OOP Project\Ver07">
+      <UniqueIdentifier>{07660d4a-e4e0-4a09-9925-81ccb96738f3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BetweenAdder.cpp">
@@ -241,10 +244,31 @@
     <ClCompile Include="BankingSystemVer06.cpp">
       <Filter>소스 파일\OOP Project</Filter>
     </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>소스 파일\OOP Project\Ver07</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountHandler.cpp">
+      <Filter>소스 파일\OOP Project\Ver07</Filter>
+    </ClCompile>
+    <ClCompile Include="BankingSystemMain.cpp">
+      <Filter>소스 파일\OOP Project\Ver07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BankingSystemVer05.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Account.h">
+      <Filter>소스 파일\OOP Project\Ver07</Filter>
+    </ClInclude>
+    <ClInclude Include="BankingCommonDecl.h">
+      <Filter>소스 파일\OOP Project\Ver07</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAccount.h">
+      <Filter>소스 파일\OOP Project\Ver07</Filter>
+    </ClInclude>
+    <ClInclude Include="HighCreditAccount.h">
+      <Filter>소스 파일\OOP Project\Ver07</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountHandler.h">
+      <Filter>소스 파일\OOP Project\Ver07</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
