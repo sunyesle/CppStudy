@@ -11,8 +11,8 @@ private:
 public:
 	Book(char * title, char *isbn, int price)
 		:price(price) {
-		this->title = new char[strlen(title)];
-		this->isbn = new char[strlen(isbn)];
+		this->title = new char[strlen(title)+1];
+		this->isbn = new char[strlen(isbn)+1];
 
 		strcpy(this->title, title);
 		strcpy(this->isbn, isbn);
@@ -30,7 +30,7 @@ private:
 public:
 	EBook(char * title, char *isbn, int price, char * DRMKey)
 		: Book(title, isbn, price) {
-		this->DRMKey = new char[strlen(DRMKey)];
+		this->DRMKey = new char[strlen(DRMKey)+1];
 		strcpy(this->DRMKey, DRMKey);
 	}
 	void ShowEBookInfo() {

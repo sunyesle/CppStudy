@@ -62,6 +62,9 @@
     <Filter Include="소스 파일\Chapter10">
       <UniqueIdentifier>{7e2986d7-ab88-4c82-8e68-b43b1099efc7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter11">
+      <UniqueIdentifier>{31cbcbbd-1040-49e7-8536-85046cc19833}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BetweenAdder.cpp">
@@ -285,6 +288,24 @@
     </ClCompile>
     <ClCompile Include="10_3.cpp">
       <Filter>소스 파일\Chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignShallowCopyError.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="11_1_1.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="11_1_2.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="StableConstArraySolu.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="11_2_1.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="11_2_2.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
