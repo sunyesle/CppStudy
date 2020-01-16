@@ -298,13 +298,25 @@
     <ClCompile Include="11_1_2.cpp">
       <Filter>소스 파일\Chapter11</Filter>
     </ClCompile>
-    <ClCompile Include="StableConstArraySolu.cpp">
-      <Filter>소스 파일\Chapter11</Filter>
-    </ClCompile>
     <ClCompile Include="11_2_1.cpp">
       <Filter>소스 파일\Chapter11</Filter>
     </ClCompile>
     <ClCompile Include="11_2_2.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="StableConstArraySolu.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="NewDeleteOverloading.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayNewDeleteOverloading.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerOperatorOverloading.cpp">
+      <Filter>소스 파일\Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPointer.cpp">
       <Filter>소스 파일\Chapter11</Filter>
     </ClCompile>
   </ItemGroup>
