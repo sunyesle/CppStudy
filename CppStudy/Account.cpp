@@ -42,3 +42,13 @@ void Account::ShowAccountInfo() const {
 Account::~Account() {
 	delete[] cusName;
 }
+
+Account & Account::operator=(const Account & ref)
+{
+	delete[] cusName;
+	accID = ref.accID;
+	cusName = new char[strlen(ref.cusName)];
+	strcpy(cusName, ref.cusName);
+	balance = ref.balance;
+	return *this;
+}

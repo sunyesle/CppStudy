@@ -8,11 +8,11 @@
 #include "Account.h"
 #include "NormalAccount.h"
 #include "HighCreditAccount.h"
+#include "AccountArray.h"
 
 AccountHandler::AccountHandler()
 	:accNum(0)
-{
-}
+{ }
 
 void AccountHandler::ShowMenu(void) {
 	cout << "-----Menu-----" << endl;

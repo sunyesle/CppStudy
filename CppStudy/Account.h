@@ -15,6 +15,8 @@ public:
 	Account(int id, int bal, char* name);
 	Account(Account & ref);
 
+	Account& operator=(const Account& ref);
+
 	int GetAccID() const;
 	virtual void Deposite(int money);
 	bool Withdraw(int money);
