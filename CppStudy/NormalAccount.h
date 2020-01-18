@@ -12,7 +12,7 @@ class NormalAccount : public Account {
 private:
 	const int interestRate;
 public:
-	NormalAccount(int id, int bal, char* name, int interRate)
+	NormalAccount(int id, int bal, String name, int interRate)
 		: Account(id, bal, name), interestRate(interRate)
 	{}
 	virtual void Deposite(int money) {

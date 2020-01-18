@@ -62,7 +62,10 @@
     <Filter Include="소스 파일\Chapter11">
       <UniqueIdentifier>{31cbcbbd-1040-49e7-8536-85046cc19833}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\OOP Project\Ver08">
+    <Filter Include="소스 파일\Chapter12">
+      <UniqueIdentifier>{c3c4a48f-6081-468a-8921-46c3e0f492c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP Project\Ver09">
       <UniqueIdentifier>{07660d4a-e4e0-4a09-9925-81ccb96738f3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -251,13 +254,13 @@
       <Filter>소스 파일\OOP Project</Filter>
     </ClCompile>
     <ClCompile Include="Account.cpp">
-      <Filter>소스 파일\OOP Project\Ver08</Filter>
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
     </ClCompile>
     <ClCompile Include="AccountHandler.cpp">
-      <Filter>소스 파일\OOP Project\Ver08</Filter>
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
     </ClCompile>
     <ClCompile Include="BankingSystemMain.cpp">
-      <Filter>소스 파일\OOP Project\Ver08</Filter>
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
     </ClCompile>
     <ClCompile Include="10_1.cpp">
       <Filter>소스 파일\Chapter10</Filter>
@@ -332,27 +335,39 @@
       <Filter>소스 파일\Chapter11</Filter>
     </ClCompile>
     <ClCompile Include="AccountArray.cpp">
-      <Filter>소스 파일\OOP Project\Ver08</Filter>
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
+    </ClCompile>
+    <ClCompile Include="StringClass.cpp">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h">
-      <Filter>소스 파일\OOP Project\Ver08</Filter>
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
     </ClInclude>
     <ClInclude Include="BankingCommonDecl.h">
-      <Filter>소스 파일\OOP Project\Ver08</Filter>
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
     </ClInclude>
     <ClInclude Include="NormalAccount.h">
-      <Filter>소스 파일\OOP Project\Ver08</Filter>
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
     </ClInclude>
     <ClInclude Include="HighCreditAccount.h">
-      <Filter>소스 파일\OOP Project\Ver08</Filter>
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
     </ClInclude>
     <ClInclude Include="AccountHandler.h">
-      <Filter>소스 파일\OOP Project\Ver08</Filter>
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
     </ClInclude>
     <ClInclude Include="AccountArray.h">
-      <Filter>소스 파일\OOP Project\Ver08</Filter>
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
+    </ClInclude>
+    <ClInclude Include="StringClass.h">
+      <Filter>소스 파일\Chapter12</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>소스 파일\OOP Project\Ver09</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -6,13 +6,15 @@
 #ifndef __ACCOUNT_H__
 #define __ACCOUNT_H__
 
+#include "String.h"
+
 class Account {
 private:
 	int accID;
 	int balance;
-	char * cusName;
+	String cusName;
 public:
-	Account(int id, int bal, char* name);
+	Account(int id, int bal, String name);
 	Account(Account & ref);
 
 	Account& operator=(const Account& ref);

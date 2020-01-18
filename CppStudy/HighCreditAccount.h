@@ -12,7 +12,7 @@ class HighCreditAccount : public NormalAccount {
 private:
 	const int creditRating;
 public:
-	HighCreditAccount(int id, int bal, char* name, int interRate, int credit)
+	HighCreditAccount(int id, int bal, String name, int interRate, int credit)
 		:NormalAccount(id, bal, name, interRate), creditRating(credit)
 	{}
 	virtual void Deposite(int money) {

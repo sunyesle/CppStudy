@@ -46,7 +46,7 @@ void AccountHandler::MakeAccount(void)
 void AccountHandler::MakeNormalAccount(void) {
 	int id;
 	int balance;
-	char name[NAME_LENGTH];
+	String name;
 	int interRate;
 
 	cout << "[보통예금계좌개설]" << endl;
@@ -60,7 +60,7 @@ void AccountHandler::MakeNormalAccount(void) {
 void AccountHandler::MakeHighCreditAccount(void) {
 	int id;
 	int balance;
-	char name[NAME_LENGTH];
+	String name;
 	int interRate;
 	int credit;
 
