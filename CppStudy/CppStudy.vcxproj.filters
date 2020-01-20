@@ -65,7 +65,16 @@
     <Filter Include="소스 파일\Chapter12">
       <UniqueIdentifier>{c3c4a48f-6081-468a-8921-46c3e0f492c1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\OOP Project\Ver09">
+    <Filter Include="소스 파일\Chapter13">
+      <UniqueIdentifier>{1e091695-2f1e-47b7-893e-3da22d075bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter13\PointTemplate">
+      <UniqueIdentifier>{c55bff57-7504-422d-9be1-a1755b92f58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter13\ArrayTemplate">
+      <UniqueIdentifier>{e4bf827f-2608-46e0-8664-f7ed1285a28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP Project\Ver10">
       <UniqueIdentifier>{07660d4a-e4e0-4a09-9925-81ccb96738f3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -254,13 +263,13 @@
       <Filter>소스 파일\OOP Project</Filter>
     </ClCompile>
     <ClCompile Include="Account.cpp">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
     </ClCompile>
     <ClCompile Include="AccountHandler.cpp">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
     </ClCompile>
     <ClCompile Include="BankingSystemMain.cpp">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
     </ClCompile>
     <ClCompile Include="10_1.cpp">
       <Filter>소스 파일\Chapter10</Filter>
@@ -334,40 +343,85 @@
     <ClCompile Include="ConvToPrimitive.cpp">
       <Filter>소스 파일\Chapter11</Filter>
     </ClCompile>
-    <ClCompile Include="AccountArray.cpp">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
-    </ClCompile>
     <ClCompile Include="StringClass.cpp">
       <Filter>소스 파일\Chapter12</Filter>
     </ClCompile>
     <ClCompile Include="String.cpp">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
+    </ClCompile>
+    <ClCompile Include="AddFunctionTemplate.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoTypeAddFunction.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveFunctionTemplate.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="13_1_1.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="13_1_2.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="NeedSpecialFunctionTemplate.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialFunctionTemplate.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="PointClassTemplate.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="PointTemplate.cpp">
+      <Filter>소스 파일\Chapter13\PointTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="PointMain.cpp">
+      <Filter>소스 파일\Chapter13\PointTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundArrayMain.cpp">
+      <Filter>소스 파일\Chapter13\ArrayTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>소스 파일\Chapter13\ArrayTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="13_2.cpp">
+      <Filter>소스 파일\Chapter13</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
     </ClInclude>
     <ClInclude Include="BankingCommonDecl.h">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
     </ClInclude>
     <ClInclude Include="NormalAccount.h">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
     </ClInclude>
     <ClInclude Include="HighCreditAccount.h">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
     </ClInclude>
     <ClInclude Include="AccountHandler.h">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
-    </ClInclude>
-    <ClInclude Include="AccountArray.h">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
     </ClInclude>
     <ClInclude Include="StringClass.h">
       <Filter>소스 파일\Chapter12</Filter>
     </ClInclude>
     <ClInclude Include="String.h">
-      <Filter>소스 파일\OOP Project\Ver09</Filter>
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
+    </ClInclude>
+    <ClInclude Include="PointTemplate.h">
+      <Filter>소스 파일\Chapter13\PointTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>소스 파일\Chapter13\ArrayTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayTemplate.h">
+      <Filter>소스 파일\Chapter13\ArrayTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundCheckArray.h">
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

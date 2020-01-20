@@ -1,13 +1,13 @@
 #include "BankingCommonDecl.h"
 #include "AccountArray.h"
 
-BoundCheckAccountPtrArray::BoundCheckAccountPtrArray(int arrlen)
+BoundCheckArray::BoundCheckArray(int arrlen)
 	:arrlen(arrlen)
 {
 	arr = new Account*[arrlen];
 }
 
-ACCOUNT_PTR & BoundCheckAccountPtrArray::operator[](int idx)
+ACCOUNT_PTR & BoundCheckArray::operator[](int idx)
 {
 	if (idx < 0 || idx >= arrlen) {
 		cout << "범위 초과" << endl;
@@ -18,7 +18,7 @@ ACCOUNT_PTR & BoundCheckAccountPtrArray::operator[](int idx)
 	}
 }
 
-ACCOUNT_PTR BoundCheckAccountPtrArray::operator[](int idx) const
+ACCOUNT_PTR BoundCheckArray::operator[](int idx) const
 {
 	if (idx < 0 || idx >= arrlen) {
 		cout << "범위 초과" << endl;
@@ -29,12 +29,12 @@ ACCOUNT_PTR BoundCheckAccountPtrArray::operator[](int idx) const
 	}
 }
 
-int BoundCheckAccountPtrArray::GetArrLen() const
+int BoundCheckArray::GetArrLen() const
 {
 	return arrlen;
 }
 
-BoundCheckAccountPtrArray::~BoundCheckAccountPtrArray()
+BoundCheckArray::~BoundCheckArray()
 {
 	delete[] arr;
 }
