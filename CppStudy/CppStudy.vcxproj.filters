@@ -80,6 +80,9 @@
     <Filter Include="소스 파일\Chapter14">
       <UniqueIdentifier>{66bcaeeb-8979-4c4b-986b-fa9917ab040f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter15">
+      <UniqueIdentifier>{52dd0513-9828-4ff0-ad06-0c32e8d94bcd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BetweenAdder.cpp">
@@ -412,6 +415,36 @@
     <ClCompile Include="ClassTemplateStaticMem.cpp">
       <Filter>소스 파일\Chapter14</Filter>
     </ClCompile>
+    <ClCompile Include="HandlingExceptionTryCatch.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="PassException.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffHandlingPosition.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="StackUnwinding.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="CatchList.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ATMSim.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ATMSim2.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="CatchFlow.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="BadAlloc.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="ReThrow.cpp">
+      <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Account.h">
@@ -445,6 +478,9 @@
       <Filter>소스 파일\Chapter13\ArrayTemplate</Filter>
     </ClInclude>
     <ClInclude Include="BoundCheckArray.h">
+      <Filter>소스 파일\OOP Project\Ver10</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountException.h">
       <Filter>소스 파일\OOP Project\Ver10</Filter>
     </ClInclude>
   </ItemGroup>

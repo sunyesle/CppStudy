@@ -21,7 +21,7 @@ public:
 
 	int GetAccID() const;
 	virtual void Deposite(int money);
-	bool Withdraw(int money);
+	void Withdraw(int money);
 	void ShowAccountInfo() const;
 	~Account();
 };
