@@ -83,6 +83,9 @@
     <Filter Include="소스 파일\Chapter15">
       <UniqueIdentifier>{52dd0513-9828-4ff0-ad06-0c32e8d94bcd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter16">
+      <UniqueIdentifier>{dde2af71-c950-4589-a110-446101e1ed22}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BetweenAdder.cpp">
@@ -444,6 +447,30 @@
     </ClCompile>
     <ClCompile Include="ReThrow.cpp">
       <Filter>소스 파일\Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerfullCasting.cpp">
+      <Filter>소스 파일\Chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicCasting.cpp">
+      <Filter>소스 파일\Chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticCasting.cpp">
+      <Filter>소스 파일\Chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstCasting.cpp">
+      <Filter>소스 파일\Chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="ReinterpretCasting.cpp">
+      <Filter>소스 파일\Chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymorphicDynamicCasting.cpp">
+      <Filter>소스 파일\Chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymoreStableCasting.cpp">
+      <Filter>소스 파일\Chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicBadCastRef.cpp">
+      <Filter>소스 파일\Chapter16</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
